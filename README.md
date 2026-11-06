@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=23&duration=2500&pause=800&color=8B5CF6&center=true&vCenter=true&width=750&lines=Say+Goodbye+to+Unwanted+Messages+%F0%9F%91%8B;Smarter+SMS+Classification+%F0%9F%A4%96;Machine+Learning+Meets+NLP+%E2%9C%A8;Detect+Spam.+Keep+Your+Inbox+Clean.+%F0%9F%92%99" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=23&duration=2500&pause=800&color=8B5CF6&center=true&vCenter=true&width=750&lines=Say+Goodbye+to+Unwanted+Messages;Smarter+SMS+Classification;Machine+Learning+Meets+NLP;Detect+Spam.+Keep+Your+Inbox+Clean." />
 
 <br/><br/>
 
@@ -21,7 +21,7 @@
 
 <br/><br/>
 
-**✨ Intelligent SMS Classification | NLP | Random Forest | DVC | DVCLive**
+**Intelligent SMS Classification · NLP · Random Forest · DVC · DVCLive**
 
 </div>
 
@@ -29,115 +29,141 @@
 
 <div align="center">
 
-## 💌 A Cleaner Inbox Starts Here!
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=25&duration=3000&pause=1000&color=635BDB&center=true&vCenter=true&width=600&lines=A+Cleaner+Inbox+Starts+Here." />
 
-<img src="https://img.shields.io/badge/INCOMING%20MESSAGE-8B5CF6?style=for-the-badge&labelColor=F3E8FF" />
+<sub>Turning everyday text messages into meaningful predictions.</sub>
+
+</div>
+
+## 01 — Meet SpamShield
+
+SpamShield is a machine learning-powered SMS classification application that identifies whether a message is **Spam** or **Ham (legitimate)**.
+
+It brings together text preprocessing, TF-IDF feature extraction, and Random Forest classification in an interactive Streamlit application.
+
+Alongside the prediction workflow, the project explores reproducible ML pipelines and experiment tracking using DVC and DVCLive.
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+<img src="https://img.shields.io/badge/01-SPAM-FF4B6E?style=for-the-badge" />
+
+### Unwanted Messages
+
+Promotional, suspicious or unsolicited messages.
+
+</td>
+<td align="center" width="50%">
+
+<img src="https://img.shields.io/badge/02-HAM-10B981?style=for-the-badge" />
+
+### Legitimate Messages
+
+Genuine personal and informational messages.
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 02 — The Experience
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/SPAMSHIELD%20MESSAGE%20ANALYZER-635BDB?style=for-the-badge&labelColor=EDE9FE" />
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=18&duration=2200&pause=700&color=EC4899&center=true&vCenter=true&width=600&lines=Congratulations!+You+won+a+prize...;URGENT!+Claim+your+reward+now!;Wait...+Could+this+be+SPAM%3F+%F0%9F%A4%94" />
+<table>
+<tr>
+<td width="100%" align="left">
 
-<br/><br/>
+**MESSAGE INPUT**
 
-<img src="https://img.shields.io/badge/🚨%20SPAM%20DETECTED-FF4B6E?style=for-the-badge" />
+<sub>Example message</sub>
+
+> Congratulations! You have won a free prize. Claim your reward now!
 
 <br/>
 
-<img src="https://img.shields.io/badge/LEGITIMATE%20MESSAGE-16C79A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/ANALYSIS%20RESULT-SPAM%20DETECTED-FF4B6E?style=for-the-badge" />
+
+<sub>Illustrative classification example — not a live prediction.</sub>
+
+</td>
+</tr>
+</table>
 
 </div>
 
-## 🌈 What is SpamShield?
+The Streamlit interface provides a simple way to submit a message and view its predicted category.
 
-**SpamShield** is a Machine Learning-powered SMS Spam Detection application that classifies incoming text messages into two categories:
-
-<table>
-<tr>
-<td width="50%" align="center">
-
-<img src="https://img.shields.io/badge/SPAM-FF4B6E?style=for-the-badge" />
-
-### 🚨 Unwanted Messages
-
-Identifies unwanted or spam messages using a trained classification model.
-
-</td>
-<td width="50%" align="center">
-
-<img src="https://img.shields.io/badge/HAM-16C79A?style=for-the-badge" />
-
-### 💚 Legitimate Messages
-
-Recognizes genuine, non-spam messages.
-
-</td>
-</tr>
-</table>
-
-The application combines text preprocessing, TF-IDF feature extraction and Random Forest classification with an interactive Streamlit interface.
-
-It also explores reproducible machine learning workflows using DVC and DVCLive.
-
----
-
-## 🎨 Features at a Glance
+## 03 — Features
 
 <table>
 <tr>
-<td align="center" width="33%">
+<td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/01-8B5CF6?style=for-the-badge" />
+<img src="https://img.shields.io/badge/01-8B5CF6?style=flat-square" />
 
-### 🧠 Smart Classification
+### Intelligent Classification
 
-Random Forest-based SMS classification.
-
-</td>
-<td align="center" width="33%">
-
-<img src="https://img.shields.io/badge/02-06B6D4?style=for-the-badge" />
-
-### 🔤 NLP Processing
-
-TF-IDF text feature extraction.
+A Random Forest model classifies messages into Spam and Ham categories.
 
 </td>
-<td align="center" width="33%">
+<td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/03-F59E0B?style=for-the-badge" />
+<img src="https://img.shields.io/badge/02-06B6D4?style=flat-square" />
 
-### ⚡ Interactive UI
+### NLP Processing
 
-Streamlit-based message analysis.
+TF-IDF transforms message text into numerical features for machine learning.
 
 </td>
 </tr>
 <tr>
-<td align="center">
+<td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/04-EC4899?style=for-the-badge" />
+<img src="https://img.shields.io/badge/03-EC4899?style=flat-square" />
 
-### 📊 Model Insights
+### Interactive Application
 
-Classification and probability estimates.
-
-</td>
-<td align="center">
-
-<img src="https://img.shields.io/badge/05-10B981?style=for-the-badge" />
-
-### 🔄 Reproducibility
-
-DVC pipeline orchestration.
+A Streamlit interface for submitting messages and viewing predictions.
 
 </td>
-<td align="center">
+<td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/06-6366F1?style=for-the-badge" />
+<img src="https://img.shields.io/badge/04-F59E0B?style=flat-square" />
 
-### 📈 Experiment Tracking
+### Reproducible Pipeline
 
-DVCLive experiment metrics.
+DVC manages the machine learning pipeline and its dependencies.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/05-10B981?style=flat-square" />
+
+### Experiment Tracking
+
+DVCLive records experiment metrics during model development.
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/06-6366F1?style=flat-square" />
+
+### Configurable Workflow
+
+YAML configuration keeps selected pipeline parameters organized.
 
 </td>
 </tr>
@@ -145,26 +171,22 @@ DVCLive experiment metrics.
 
 ---
 
-## 🪄 How SpamShield Works
+## 04 — Under the Hood
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/01-INPUT-8B5CF6?style=for-the-badge" />
-<img src="https://img.shields.io/badge/02-PROCESS-06B6D4?style=for-the-badge" />
-<img src="https://img.shields.io/badge/03-PREDICT-EC4899?style=for-the-badge" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=20&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=600&lines=Raw+Text+%E2%86%92+Features+%E2%86%92+Predictions;The+Machine+Learning+Pipeline" />
 
 </div>
 
 ```mermaid
 flowchart TD
-    A(["💌 SMS Message"]) --> B["🧹 Text Preprocessing"]
-    B --> C["🔤 TF-IDF Vectorization"]
-    C --> D["🌳 Random Forest Classifier"]
-    D --> E{"Classification"}
-    E -->|Spam| F["🚨 Spam Detected"]
-    E -->|Ham| G["💚 Legitimate Message"]
-    F --> H["📊 Prediction Results"]
-    G --> H
+    A(["SMS Message"]) --> B["Text Preprocessing"]
+    B --> C["TF-IDF Vectorization"]
+    C --> D["Random Forest Classifier"]
+    D --> E{"Prediction"}
+    E -->|Spam| F(["Spam Detected"])
+    E -->|Ham| G(["Legitimate Message"])
 
     style A fill:#EDE9FE,stroke:#8B5CF6,color:#4C1D95
     style B fill:#CFFAFE,stroke:#06B6D4,color:#164E63
@@ -172,108 +194,137 @@ flowchart TD
     style D fill:#FCE7F3,stroke:#EC4899,color:#831843
     style F fill:#FFE4E6,stroke:#F43F5E,color:#881337
     style G fill:#D1FAE5,stroke:#10B981,color:#064E3B
-    style H fill:#FEF3C7,stroke:#F59E0B,color:#78350F
 ```
 
-### 🔬 Machine Learning Pipeline
+### Pipeline breakdown
 
-| Stage | Description |
-|:---|:---|
-| 📥 Data Ingestion | Load and organize SMS dataset |
-| 🧹 Preprocessing | Clean text and prepare data |
-| 🔤 Feature Engineering | Convert text into TF-IDF features |
-| 🌳 Model Building | Train Random Forest classifier |
-| 📊 Evaluation | Evaluate classification performance |
-| 📈 Tracking | Record metrics with DVCLive |
+| Phase | Operation |
+|:--|:--|
+| 01 · Ingestion | Load and organize the SMS dataset |
+| 02 · Preparation | Clean and prepare message text |
+| 03 · Feature extraction | Generate TF-IDF features |
+| 04 · Training | Fit the Random Forest classifier |
+| 05 · Evaluation | Evaluate classification performance |
+| 06 · Application | Predict message categories |
 
 ---
 
-## 🧩 Technology Stack
+## 05 — Technology Universe
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,pandas,numpy,sklearn,git,github,azure&theme=light&perline=7" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&duration=3000&pause=1000&color=635BDB&center=true&vCenter=true&width=500&lines=The+Tools+Behind+SpamShield" />
 
-<br/><br/>
+</div>
 
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+### 01. Core development
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,git,github&theme=light&perline=3" />
+
+<br/>
+
+<sub>PYTHON &nbsp; / &nbsp; GIT &nbsp; / &nbsp; GITHUB</sub>
+
+</div>
+
+### 02. Data science & machine learning
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+
+</div>
+
+| Technology | Application |
+|:--|:--|
+| NumPy | Numerical computing |
+| Pandas | Data manipulation |
+| Scikit-learn | Feature extraction, model training and evaluation |
+| TF-IDF | Text vectorization |
+| Random Forest | Classification |
+
+### 03. User interface
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=streamlit&theme=light" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+
+</div>
+
+Streamlit powers the interactive message classification interface.
+
+### 04. MLOps & experiment management
+
+<div align="center">
+
 <img src="https://img.shields.io/badge/DVC-945DD6?style=for-the-badge&logo=dvc&logoColor=white" />
-<img src="https://img.shields.io/badge/DVCLive-06B6D4?style=for-the-badge" />
+<img src="https://img.shields.io/badge/DVCLive-0891B2?style=for-the-badge" />
 <img src="https://img.shields.io/badge/PyYAML-CB171E?style=for-the-badge" />
 
 </div>
 
+These tools support pipeline reproducibility, experiment metrics and configuration management.
+
 ---
 
-## 🏗️ Architecture
+## 06 — Architecture & MLOps
+
+The project separates model development from application-level prediction while keeping the training workflow organized.
 
 ```mermaid
 flowchart TB
-    A["📂 SMS Dataset"] --> B["Data Ingestion"]
+    A["SMS Dataset"] --> B["Data Ingestion"]
     B --> C["Preprocessing"]
     C --> D["Feature Engineering"]
     D --> E["Random Forest"]
     E --> F["Evaluation"]
     F --> G["Model Artifacts"]
 
-    H["⚙️ params.yaml"] --> B
-    H --> D
-    H --> E
+    P["params.yaml"] --> B
+    P --> D
+    P --> E
 
-    I["DVC"] -.-> B
-    I -.-> C
-    I -.-> D
-    I -.-> E
-    I -.-> F
+    H["DVC Pipeline"] -.-> B
+    H -.-> C
+    H -.-> D
+    H -.-> E
+    H -.-> F
 
-    F --> J["DVCLive"]
+    F --> I["DVCLive Metrics"]
 
-    G --> K["Streamlit Application"]
-    L["User Input"] --> K
-    K --> M["Spam / Ham Prediction"]
+    G --> J["Streamlit Application"]
+    K["User Input"] --> J
+    J --> L["Spam / Ham Prediction"]
 
     style A fill:#EDE9FE,stroke:#8B5CF6,color:#4C1D95
     style E fill:#FCE7F3,stroke:#EC4899,color:#831843
-    style J fill:#CFFAFE,stroke:#06B6D4,color:#164E63
-    style K fill:#DBEAFE,stroke:#3B82F6,color:#1E3A8A
-    style M fill:#D1FAE5,stroke:#10B981,color:#064E3B
+    style I fill:#CFFAFE,stroke:#06B6D4,color:#164E63
+    style J fill:#DBEAFE,stroke:#3B82F6,color:#1E3A8A
+    style L fill:#D1FAE5,stroke:#10B981,color:#064E3B
 ```
 
----
-
-## 📸 See SpamShield in Action
-
-<div align="center">
-
-<img src="assets/spamshield-demo.gif" width="90%" alt="SpamShield application demo" />
-
-<sub>Replace this placeholder with an actual recording of your Streamlit application.</sub>
-
-</div>
-
----
-
-## ⚙️ MLOps Workflow
-
-### 🔄 DVC Pipeline
+### DVC commands
 
 ```bash
+# Reproduce the pipeline
 dvc repro
-```
 
-### 📊 Experiment Tracking
-
-```bash
+# Explore experiment results
 dvc exp show
-```
 
-### ☁️ Remote Artifact Storage
-
-```bash
+# Push tracked outputs to a configured remote
 dvc push
 ```
 
-### Configuration Example
+### Configuration example
 
 ```yaml
 data_ingestion:
@@ -287,16 +338,15 @@ model_building:
   random_state: 2
 ```
 
-DVC manages pipeline dependencies and outputs, while DVCLive records experiment metrics and artifacts.
-
 ---
 
-## 📁 Project Structure
+## 07 — Repository Structure
 
 ```text
 SpamShield/
 │
 ├── .dvc/
+│
 ├── data/
 │   ├── raw/
 │   ├── interim/
@@ -325,16 +375,18 @@ SpamShield/
 
 ---
 
-## 🚀 Run Locally
+## 08 — Get Started
 
-**1. Clone**
+**Prerequisites:** Python 3.9+, Git and pip.
+
+**Clone the project**
 
 ```bash
 git clone https://github.com/Shashikala-11/SpamShield.git
 cd SpamShield
 ```
 
-**2. Create environment**
+**Create a virtual environment**
 
 ```bash
 python -m venv myenv
@@ -346,44 +398,61 @@ Windows:
 .\myenv\Scripts\activate
 ```
 
-**3. Install dependencies**
+**Install dependencies**
 
 ```bash
 pip install pandas numpy scikit-learn streamlit pyyaml dvc dvclive
 ```
 
-**4. Reproduce pipeline**
+**Run the pipeline**
 
 ```bash
 dvc repro
 ```
 
-**5. Launch application**
+If required data or artifacts are stored in a configured DVC remote, retrieve them before running the application.
+
+**Launch SpamShield**
 
 ```bash
 streamlit run app.py
 ```
 
-Open `http://localhost:8501` in your browser.
+<div align="center">
+
+<img src="https://img.shields.io/badge/LOCAL%20SERVER-http%3A%2F%2Flocalhost%3A8501-635BDB?style=for-the-badge" />
+
+</div>
 
 ---
 
-## 🚀 Future Roadmap
+## 09 — A Look Inside
 
-- [ ] Batch SMS classification
-- [ ] Model comparison and optimization
-- [ ] MLflow integration
-- [ ] Explainable AI
-- [ ] FastAPI integration
-- [ ] Docker containerization
-- [ ] GitHub Actions CI/CD
-- [ ] Model monitoring
-- [ ] Data drift detection
-- [ ] Cloud deployment
+<div align="center">
+
+<img src="assets/spamshield-demo.gif" width="90%" alt="SpamShield application demonstration" />
+
+<sub>Application walkthrough — replace with your actual screen recording.</sub>
+
+</div>
 
 ---
 
-## 👩‍💻 Developer
+## 10 — What's Next?
+
+| Planned enhancement | Status |
+|:--|:--:|
+| Batch message classification | Planned |
+| Model comparison and tuning | Planned |
+| Explainable AI | Planned |
+| MLflow integration | Planned |
+| FastAPI integration | Planned |
+| Docker containerization | Planned |
+| GitHub Actions CI/CD | Planned |
+| Model monitoring and drift detection | Planned |
+| Cloud deployment | Planned |
+
+---
 
 <div align="center">
 
@@ -407,7 +476,7 @@ Open `http://localhost:8501` in your browser.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,30&height=120&section=footer" width="100%" />
 
-### 💜 Thanks for visiting SpamShield!
+### Thanks for visiting SpamShield!
 
 **Smarter classification. Cleaner inbox. Better ML workflows.**
 
